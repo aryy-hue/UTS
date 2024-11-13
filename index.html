@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Monitoring Suhu dan Kelembapan</h1>
+        <div class="data-section">
+            <h2>Data Suhu</h2>
+            <p><strong>Suhu Maksimum:</strong> <span id="suhumax">Loading...</span> °C</p>
+            <p><strong>Suhu Minimum:</strong> <span id="suhumin">Loading...</span> °C</p>
+            <p><strong>Suhu Rata-rata:</strong> <span id="suhurata">Loading...</span> °C</p>
+        </div>
+
+        <div class="data-section">
+            <h2>Data Terbaru</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Waktu</th>
+                        <th>Suhu (°C)</th>
+                        <th>Kelembapan (%)</th>
+                        <th>Kecerahan</th>
+                    </tr>
+                </thead>
+                <tbody id="data-table">
+                    <!-- Data akan dimuat di sini -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
