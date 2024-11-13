@@ -1,4 +1,4 @@
-Midterm Exam
+<h1><b>Midterm Exam</b></h1>
 
 
 
@@ -10,4 +10,7 @@ Name : Muhammad Fauzan Aryawardhana
 
 NRP : 152022135
 
-Wokwi Website : wokwi.com/projects/414397977694149633
+
+Kelas : DD
+
+
